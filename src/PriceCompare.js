@@ -64,7 +64,7 @@ const PriceCompare = () => {
       <span className="btc-where">{WhereSellBTC}</span> 
       <h3>Where to buy ETH at the moment?</h3>
       <span className="eth-where">{WhereETH}</span>
-      <h3>Where to buy ETH at the moment?</h3>
+      <h3>Where to sell ETH at the moment?</h3>
       <span className="eth-where">{WhereSellETH}</span>     
     </div>
     
