@@ -1,23 +1,26 @@
-import logo from './logo.svg';
+import CryptocompareBtc from './CryptocompareBtc';
+import CryptocompareEth from './CryptocompareEth';
+import CoinLayerBtc from './CoinLayerBtc';
+import CoinLayerEth from './CoinLayerEth';
+import PriceCompare from './PriceCompare';
 import './App.css';
 
 function App() {
+  function refreshPage() {
+    window.location.reload();
+  }
+  
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <CryptocompareBtc />
+      <CoinLayerBtc />
+      <CryptocompareEth />
+      <CoinLayerEth />
+      <PriceCompare />
+      <div>
+        
+      </div>
+      <button color="black" onClick={refreshPage}>Refresh</button>
     </div>
   );
 }
