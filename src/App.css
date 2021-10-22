@@ -4,10 +4,15 @@
   color: white;
   background-color: #282c34;
 }
+.photo {
+  height: 100px;
+  width: 100px;
+}
+
 body {
 
   background-color: #282c34;
-  
+
   }
 .App-logo {
   height: 40vmin;
